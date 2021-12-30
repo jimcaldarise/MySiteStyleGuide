@@ -1,0 +1,172 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #474B4F;
+}
+
+header {
+   margin: 40px auto;
+   max-width: 80%;
+   color: whitesmoke;
+}
+
+h1 {
+   font-weight: 700;
+   font-size: 46px;
+   font-family: "Raleway", "Verdana", sans-serif;
+}
+
+h2 {
+   font-weight: 400;
+   font-size: 26px;
+   font-family: "Kiwi Maru", Georgia, serif;
+   padding: 20px;
+}
+
+h3 {
+   font-weight: 400;
+   font-size: 18px;
+   font-family: "Kiwi Maru", Georgia, serif;
+}
+
+h4 {
+   font-size: 22px;
+}
+
+h5 {
+   font-weight: 400;
+   font-size: 14px;
+   font-family: "Jost", "Verdana", sans-serif;
+   padding: 20px;
+}
+
+p {
+   font-weight: 400;
+   font-size: 14px;
+   font-family: "Jost", "Verdana", sans-serif;
+}
+
+article {
+   border: 3px solid #222629;
+   margin:  40px auto;
+   max-width: 80%;
+   display: block;
+   background-color: whitesmoke;
+}
+
+section {
+   display: inline-block;
+   width: 40%;
+   position: relative;
+   margin: 30px;
+}
+
+article h1, h3 {
+   padding: 20px;
+}
+
+ul {
+   margin-left: 100px;
+}
+ 
+li {
+   padding: 3px ;
+}
+
+.colorcard {
+   display: inline-block;
+   width: 29%;
+   position: relative;
+   padding: 30px 40px;
+   text-align: center;
+   margin: 30px;
+}
+
+#mossgreen {
+   background-color: #61892F;
+   color: #222629;
+}
+
+#brightgreen {
+   background-color: #86C232;
+   color: #222629;
+}
+
+#chalkboard {
+   background-color: #222629;
+   color: #F5F5F5;
+}
+
+#witchcraft {
+   background-color: #474B4F;
+   color: #F5F5F5;
+}
+
+#pebblegray {
+   background-color: #6B6E70;
+   color: #F5F5F5;
+}
+
+#whitesmoke {
+   background-color: #F5F5F5;
+   color: #222629;
+   border: 1px dashed #222629;
+}
+
+#raleway400 {
+   font-family: "Raleway";
+   font-weight: 400;
+}
+
+#raleway400italic {
+   font-family: "Raleway";
+   font-weight: 400;
+   font-style: italic;
+}
+
+#raleway700 {
+   font-family: "Raleway";
+   font-weight: 700;
+}
+
+#raleway700italic {
+   font-family: "Raleway";
+   font-weight: 700;
+   font-style: italic;
+}
+
+#kiwimaru300 {
+   font-family: "Kiwi Maru";
+   font-weight: 300;
+}
+
+#kiwimaru500 {
+   font-family: "Kiwi Maru";
+   font-weight: 500;
+}
+
+#jost400 {
+   font-family: "Jost";
+   font-weight: 400;
+}
+
+#jost400italic {
+   font-family: "Jost";
+   font-weight: 400;
+   font-style: italic;
+}
+
+#jost700 {
+   font-family: "Jost";
+   font-weight: 700;
+}
+
+#jost700italic {
+   font-family: "Jost";
+   font-weight: 700;
+   font-style: italic;
+}
